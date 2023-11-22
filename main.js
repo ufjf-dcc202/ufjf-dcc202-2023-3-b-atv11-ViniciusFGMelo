@@ -5,5 +5,13 @@ const olnItens = document.querySelector("#itens");
 
 const li = document.createElement("li");
 li.textContent = "Primeiro";
-console.log(li);
 olnItens.appendChild(li);
+
+const li2 = document.createElement("li");
+li2.textContent = "Segundo";
+olnItens.appendChild(li);
+
+const li3 = document.createElement("li");
+li3.textContent = "Terceiro";
+olnItens.appendChild(li);
+
